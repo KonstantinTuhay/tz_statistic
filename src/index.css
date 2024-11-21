@@ -1,0 +1,135 @@
+.layout {
+  border: 1px solid black;
+  width: 591px;
+  height: 534px;
+  border-radius: 7px;
+}
+
+.bar {
+  width: 80px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.bars {
+  margin-top: 132px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  gap: 60px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.eachInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+
+.label {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.72px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #898290;
+}
+
+.title {
+  margin-left: 19px;
+  color: #898290;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11.72px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #898290;
+}
+
+.box {
+  padding: 4px 11px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.circle {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 48px;
+  height: 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.circle.red {
+  background-color: #f1542f; /* Оранжевый цвет */
+}
+
+.circle.green {
+  background-color: #00cc99; /* Оранжевый цвет */
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: 50px;
+  margin-top: 49px;
+}
+
+.secondeArrowLeft {
+  position: relative;
+  right: 35px;
+  top: 12px;
+  width: 129px;
+  border: 1px solid #706f7d;
+}
+
+.secondeArrowLeft::before {
+  content: "";
+  position: absolute;
+  bottom: -93px;
+  left: -1px;
+  width: 2px;
+  height: 93px;
+  background-color: #706f7d;
+}
+
+.secondeArrowLeft::after {
+  content: "";
+  position: absolute;
+  bottom: -93px;
+  left: 128px;
+  width: 2px;
+  height: 93px;
+  background-color: #706f7d;
+}
